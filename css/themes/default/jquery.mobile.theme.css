@@ -140,11 +140,11 @@ label.ui-btn {
 /* Icons
 -----------------------------------------------------------------------------------------------------------*/
 
-.ui-btn-icon-left:after,
-.ui-btn-icon-right:after,
-.ui-btn-icon-top:after,
-.ui-btn-icon-bottom:after,
-.ui-btn-icon-notext:after {
+.ui-btn-icon-left .ui-icon,
+.ui-btn-icon-right .ui-icon,
+.ui-btn-icon-top .ui-icon,
+.ui-btn-icon-bottom .ui-icon,
+.ui-btn-icon-notext .ui-icon {
 	background-color: 					#666 /*{global-icon-color}*/;
 	background-color: 					rgba(0,0,0,.3) /*{global-icon-disc}*/;
 	background-position: center center;
@@ -154,55 +154,55 @@ label.ui-btn {
 }
 
 /* Alt icons */
-.ui-alt-icon.ui-btn:after,
-.ui-alt-icon .ui-btn:after,
-html .ui-alt-icon.ui-checkbox-off:after,
-html .ui-alt-icon.ui-radio-off:after,
-html .ui-alt-icon .ui-checkbox-off:after,
-html .ui-alt-icon .ui-radio-off:after {
+.ui-alt-icon.ui-btn .ui-icon,
+.ui-alt-icon .ui-btn .ui-icon,
+html .ui-alt-icon.ui-checkbox-off .ui-icon,
+html .ui-alt-icon.ui-radio-off .ui-icon,
+html .ui-alt-icon .ui-checkbox-off .ui-icon,
+html .ui-alt-icon .ui-radio-off .ui-icon {
 	background-color: 					#666 /*{global-icon-color}*/;
 	background-color: 					rgba(0,0,0,.15) /*{global-icon-disc}*/;
 }
 
 /* No disc */
-.ui-nodisc-icon.ui-btn:after,
-.ui-nodisc-icon .ui-btn:after {
+.ui-nodisc-icon.ui-btn .ui-icon,
+.ui-nodisc-icon .ui-btn .ui-icon {
 	background-color: transparent;
 }
 
 /* Icon shadow */
-.ui-shadow-icon.ui-btn:after,
-.ui-shadow-icon .ui-btn:after {
+.ui-shadow-icon.ui-btn .ui-icon,
+.ui-shadow-icon .ui-btn .ui-icon {
 	-webkit-box-shadow: 0 1px 0 			rgba(255,255,255,.3) /*{global-icon-shadow}*/;
 	-moz-box-shadow: 0 1px 0 				rgba(255,255,255,.3) /*{global-icon-shadow}*/;
 	box-shadow: 0 1px 0 					rgba(255,255,255,.3) /*{global-icon-shadow}*/;
 }
 
 /* Checkbox and radio */
-.ui-btn.ui-checkbox-off:after,
-.ui-btn.ui-checkbox-on:after,
-.ui-btn.ui-radio-off:after,
-.ui-btn.ui-radio-on:after {
+.ui-btn.ui-checkbox-off .ui-icon,
+.ui-btn.ui-checkbox-on .ui-icon,
+.ui-btn.ui-radio-off .ui-icon,
+.ui-btn.ui-radio-on .ui-icon {
 	display: block;
 	width: 18px;
 	height: 18px;
 	margin: -9px 2px 0 2px;
 }
-.ui-checkbox-off:after,
-.ui-btn.ui-radio-off:after {
+.ui-checkbox-off .ui-icon,
+.ui-btn.ui-radio-off .ui-icon {
 	filter: Alpha(Opacity=30);
 	opacity: .3;
 }
-.ui-btn.ui-checkbox-off:after,
-.ui-btn.ui-checkbox-on:after {
+.ui-btn.ui-checkbox-off .ui-icon,
+.ui-btn.ui-checkbox-on .ui-icon {
 	-webkit-border-radius: .1875em;
 	border-radius: .1875em;
 }
-.ui-btn.ui-checkbox-off:after {
+.ui-btn.ui-checkbox-off .ui-icon {
 	background-color: #666;
 	background-color: rgba(0,0,0,.3);
 }
-.ui-radio .ui-btn.ui-radio-on:after {
+.ui-radio .ui-btn.ui-radio-on .ui-icon {
 	background-image: none;
 	background-color: #fff;
 	width: 8px;
@@ -210,8 +210,8 @@ html .ui-alt-icon .ui-radio-off:after {
 	border-width: 5px;
 	border-style: solid; 
 }
-.ui-alt-icon.ui-btn.ui-radio-on:after,
-.ui-alt-icon .ui-btn.ui-radio-on:after {
+.ui-alt-icon.ui-btn.ui-radio-on .ui-icon,
+.ui-alt-icon .ui-btn.ui-radio-on .ui-icon {
 	background-color: #000;
 }
 
