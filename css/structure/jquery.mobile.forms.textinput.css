@@ -1,3 +1,8 @@
+/* Same margin for mini textareas as other mini sized widgets (12.5/14 * 0.5em) */
+.ui-mini textarea.ui-input-text,
+textarea.ui-mini {
+	margin: .446em .446em;
+}
 .ui-input-text,
 .ui-input-search {
 	margin: .5em 0;
@@ -38,11 +43,6 @@ textarea.ui-input-text {
 .ui-mini textarea.ui-input-text,
 textarea.ui-mini {
 	font-size: 14px;
-}
-/* Same margin for mini textareas as other mini sized widgets (12.5/14 * 0.5em) */
-.ui-mini textarea.ui-input-text,
-textarea.ui-mini {
-	margin: .446em 0;
 }
 .ui-input-has-clear,
 .ui-input-search {
